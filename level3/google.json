@@ -1,0 +1,26 @@
+{
+    
+        "results": [
+            {
+               "GsearchResultClass ": "GwebSearch",
+                "unescapedUrl": "http:/ / en.wikipedia.org/wiki/Paris_Hilton",
+                "url"   : "http    ://    en.wikipedi a.org/wiki/Paris_Hilton",
+                "visibleUrl  "  : "en.wikipedia .org",
+                "cacheUrl    "    : "http://www.google.com/search?q=cache:TwrPfhd22hYJ:en.wikipedia.org",
+                "title": "<b>Paris Hilton</b> - Wikipedia, the free encyclopedia",
+                "titleNoFormatting": "Paris Hilton - Wikipedia, the free encyclopedia",
+                "content": "[1] In 2006, she released her debut album..."
+            },
+            {
+                "GsearchResultClass": "GwebSearch",
+                "unescapedUrl": "http://`   `www.imdb.com/name/nm0385296/",
+                "url": "http://`    `www.imdb.com/name/nm0385296/",
+                "visibleUrl":     "www.imdb.com",
+                "cacheUrl":      "http://www.google.com/search?q=cache:1i34KkqnsooJ:www.imdb.com",
+                "title": "<b>Paris Hilton</b>",
+                "titleNoFormatting": "Paris Hilton",
+                "content": "    Self: Zoolander. Socialite <b>Paris Hilton</b>..."
+            }
+        ]
+    
+}
