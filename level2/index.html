@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML dynamic table using JavaScript</title>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body onload="load()">
+    <div class="header">
+        <h1>Library Management</h1>
+        <p>BOOK INVENTORY</p>
+      </div>
+<div id="myform">
+<b>Add Books </b>
+<table>
+    <tr>
+        <td>Book Name</td>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <td>Aurthor</td>
+        <td><input type="text" id="aurth"></td>
+    </tr>
+    <tr>
+        <td>Category</td>
+        <td><input type="text" id="cate">
+        <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</div>
+<div id="mydata">
+<b>Current Books in the System</b>
+<table id="myTableData"  border="1" cellpadding="2">
+    <tr>
+        <td>&nbsp;</td>
+        <td><b>Book Name</b></td>
+        <td><b>Aurthor</b></td>
+        <td><b>Category</b></td>
+    </tr>
+</table>
+&nbsp;
+ 
+</div>
+ 
+</body>
+</html>
