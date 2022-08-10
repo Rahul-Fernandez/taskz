@@ -1,0 +1,41 @@
+_______REQUEST_______
+POST /api/students/list HTTP/1.1
+Host: studentManangement.com
+Content-Type: application/json
+Cache-Control: no-cache
+_______RESPONSE_______
+HTTP/1.1 200 OK
+Date: Thu, 03 Jan 2019 23:26:07 GMT
+Server: gws
+Accept-Ranges: bytes
+Content-Type: application/json
+{
+    studentlist[{
+     "Name": "Ram",
+     "rollno": 001},
+     {
+     "Name": "Ravi",
+     "rollno": 002},
+     {
+     "Name": "Raj",
+     "rollno": 003}
+}
+_______REQUEST_______
+POST /api/students/list/create HTTP/1.1
+Host: studentManangement.com
+Content-Type: application/json
+Cache-Control: no-cache
+{
+     "Name": "Rafi",
+     "rollno":004
+}
+_______RESPONSE_______
+HTTP/1.1 200 OK
+Date: Thu, 03 Jan 2019 23:26:07 GMT
+Server: gws
+Accept-Ranges: bytes
+Content-Type: studentadded/json
+{
+      "Name": "Rafi",
+     "rollno":004
+}
